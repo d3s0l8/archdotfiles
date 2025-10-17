@@ -1,0 +1,135 @@
+################### dark theme
+# general {
+#     markup = "pango"
+#     colors = true
+#     interval = 5
+#
+#     color_good = "#4D5C4D"
+#     color_degraded = "#84785C"
+#     color_bad = "#5E3F3A"
+# }
+#
+# order += "wireless _first_"
+# order += "disk /"
+# order += "cpu_usage"
+# order += "cpu_temperature 0"
+# order += "memory"
+# order += "battery all"
+# order += "volume master"
+# order += "time"
+#
+#
+# wireless _first_ {
+#     format_up = "<span color='#555555'>(NET)</span><span color='#3B4A55'>\"%essid\" %ip</span>"
+#     format_down = "<span color='#555555'>(NET)</span>down"
+# }
+#
+# disk "/" {
+#     format = "<span color='#555555'>(DISK)</span><span color='#3B4A55'>%percentage_avail</span>"
+# }
+#
+# cpu_usage {
+#     format = "<span color='#555555'>(CPU)</span><span color='#3B4A55'>%usage</span>"
+#     max_threshold = 75
+#     format_above_threshold = "<span color='#555555'>(Warning CPU)</span>%usage"
+#     degraded_threshold = 30
+#     format_above_degraded_threshold = "<span color='#555555'>(Warning CPU)</span>%usage"
+# }
+#
+# cpu_temperature 0 {
+#     format = "<span color='#555555'>(TEMP)</span><span color='#3B4A55'>%degrees</span>"
+#     max_threshold = 40
+# }
+#
+# memory {
+#     format = "<span color='#555555'>(MEM)</span><span color='#3B4A55'>%free/%total</span>"
+#     unit = auto
+#     decimals = "0"
+#     threshold_degraded = "50%"
+#     threshold_critical = "10%"
+#     format_degraded = "<span color='#555555'>(LOW MEM)</span>%free/%total"
+# }
+#
+# battery all {
+#     format = "<span color='#555555'>(BATT)</span><span color='#3B4A55'>%percentage</span>"
+#     threshold_type = percentage
+#     low_threshold = 60
+# }
+#
+# volume master {
+#     device = "default"
+#     format = "<span color='#555555'>(%devicename)</span><span color='#3B4A55'>%volume</span>"
+#     mixer = "Master"
+# }
+#
+# time {
+#     format = "<span color='#655665'>%Y-%m-%d %H:%M:%S</span>"
+# }
+
+
+################# light theme
+general {
+    markup = "pango"
+    colors = true
+    interval = 5
+
+    color_good = "#00A6A6"
+    color_degraded = "#F2F200"
+    color_bad = "#A60000"
+}
+
+order += "wireless _first_"
+order += "disk /"
+order += "cpu_usage"
+order += "cpu_temperature 0"
+order += "memory"
+order += "battery all"
+order += "volume master"
+order += "time"
+
+wireless _first_ {
+    format_up = "<span color='#555555'>(NET)</span><span color='#1A1918'>\"%essid\" %ip</span>"
+    format_down = "<span color='#555555'>(NET)</span><span color='#555555'>down</span>"
+}
+
+disk "/" {
+    format = "<span color='#555555'>(DISK)</span><span color='#1A1918'>%percentage_avail</span>"
+}
+
+cpu_usage {
+    format = "<span color='#555555'>(CPU)</span><span color='#1A1918'>%usage</span>"
+    max_threshold = 75
+    format_above_threshold = "<span color='#A60000'>(HIGH CPU)</span><span color='#A60000'>%usage</span>"
+    degraded_threshold = 30
+    format_above_degraded_threshold = "<span color='#A60000'>(WARN CPU)</span><span color='#A60000'>%usage</span>"
+}
+
+cpu_temperature 0 {
+    format = "<span color='#555555'>(TEMP)</span><span color='#1A1918'>%degrees</span>"
+    max_threshold = 40
+}
+
+memory {
+    format = "<span color='#555555'>(MEM)</span><span color='#1A1918'>%free/%total</span>"
+    unit = auto
+    decimals = "0"
+    threshold_degraded = "50%"
+    threshold_critical = "10%"
+    format_degraded = "<span color='#A60000'>(LOW MEM)</span><span color='#A60000'>%free/%total</span>"
+}
+
+battery all {
+    format = "<span color='#555555'>(BATT)</span><span color='#1A1918'>%percentage</span>"
+    threshold_type = percentage
+    low_threshold = 60
+}
+
+volume master {
+    device = "default"
+    format = "<span color='#555555'>(%devicename)</span><span color='#1A1918'>%volume</span>"
+    mixer = "Master"
+}
+
+time {
+    format = "<span color='#1A1918'>%Y-%m-%d %H:%M:%S</span>"
+}

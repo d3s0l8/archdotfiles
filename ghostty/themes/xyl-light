@@ -1,0 +1,30 @@
+# Background color
+background = "#FAF2EB"
+
+# Foreground (text) color
+foreground = "#1A1918"
+
+# Selection colors
+selection-background = "#CCCBC6"
+selection-foreground = "#1A1918"
+
+# Cursor color
+cursor-color = "#1A1918"
+
+# 16-color palette
+
+palette = "1=#B85C4C"
+palette = "2=#5A9A5A"
+palette = "3=#D0873D"
+palette = "4=#5E87C5"
+palette = "5=#996699"
+palette = "6=#50B0B0"
+palette = "7=#B8A99A"
+
+palette = "9=#C26555"
+palette = "10=#84B484"
+palette = "11=#E0A94C"
+palette = "12=#8DAAE5"
+palette = "13=#B185B1"
+palette = "14=#6AC2C2"
+palette = "15=#D8C7B8"

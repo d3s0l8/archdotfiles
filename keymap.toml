@@ -1,0 +1,79 @@
+[[actions]]
+action = "ToggleLiked"
+key_sequence = "L"
+target = "PlayingTrack"
+
+[[actions]]
+action = "GoToRadio"
+key_sequence = "e"
+target = "PlayingTrack"
+
+[[actions]]
+action = "GoToArtist"
+key_sequence = "g A"
+target = "PlayingTrack"
+
+[[actions]]
+action = "GoToAlbum"
+key_sequence = "g B"
+target = "PlayingTrack"
+
+[[keymaps]]
+command = { VolumeChange = { offset = 5} }
+key_sequence = '='
+
+[[keymaps]]
+command = "None"
+key_sequence = "s"
+
+[[keymaps]]
+command = "SortTrackByTitle"
+key_sequence = "; t"
+
+[[keymaps]]
+command = "SortTrackByArtists"
+key_sequence = "; a"
+
+[[keymaps]]
+command = "SortTrackByAlbum"
+key_sequence = "; A"
+
+[[keymaps]]
+command = "SortTrackByAddedDate"
+key_sequence = "; d"
+
+[[keymaps]]
+command = "SortTrackByDuration"
+key_sequence = "; D"
+
+[[keymaps]]
+command = "ReverseTrackOrder"
+key_sequence = "; r"
+
+[[keymaps]]
+command = "MovePlaylistItemUp"
+key_sequence = "C-w"
+
+[[keymaps]]
+command = "MovePlaylistItemDown"
+key_sequence = "C-s"
+
+[[keymaps]]
+command = "Shuffle"
+key_sequence = "S"
+
+[[keymaps]]
+command = "SelectNextOrScrollDown"
+key_sequence = "s"
+
+[[keymaps]]
+command = "SelectPreviousOrScrollUp"
+key_sequence = "w"
+
+[[keymaps]]
+command = "PageSelectNextOrScrollDown"
+key_sequence = "C-s"
+
+[[keymaps]]
+command = "PageSelectPreviousOrScrollUp"
+key_sequence = "C-w"

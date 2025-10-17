@@ -1,0 +1,71 @@
+# a theme based on the application's `default` theme
+[[themes]]
+name = "xyl-dark"
+[themes.palette]
+# default theme doesn't have `foreground` and `background` specified
+black = "black"
+red = "red"
+green = "green"
+yellow = "yellow"
+blue = "blue"
+magenta = "magenta"
+cyan = "cyan"
+white = "white"
+bright_black = "bright_black"
+bright_red = "bright_red"
+bright_green = "bright_green"
+bright_yellow = "bright_yellow"
+bright_blue = "bright_blue"
+bright_magenta = "bright_magenta"
+bright_cyan = "bright_cyan"
+bright_white = "bright_white"
+[themes.component_style]
+like = { fg = "Red", modifiers = ["Bold"] }
+border = { fg = "Green", modifiers = ["Bold", "Dim"] }
+block_title = { fg = "BrightCyan", modifiers = ["Bold"] }
+selection = { fg = "Black", modifiers = ["Bold"], bg = "BrightGreen" }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "BrightGreen", modifiers = ["Bold"] }
+playback_track = { fg = "Green", modifiers = ["Bold"] }
+playback_status = { fg = "BrightGreen", modifiers = ["Bold"] }
+playback_progress_bar = { fg = "BrightBlack", bg = "BrightGreen", modifiers = ["Bold"] }
+playback_metadata = { fg = "#2A2A2A" }
+page_desc = { fg = "Green", modifiers = ["Bold"] }
+table_header = { fg = "Green", modifiers = ["Bold"] }
+
+
+[[themes]]
+name = "xyl-light"
+[themes.palette]
+# default theme doesn't have `foreground` and `background` specified
+black = "black"
+red = "red"
+green = "green"
+yellow = "yellow"
+blue = "blue"
+magenta = "magenta"
+cyan = "cyan"
+white = "white"
+bright_black = "bright_black"
+bright_red = "bright_red"
+bright_green = "bright_green"
+bright_yellow = "bright_yellow"
+bright_blue = "bright_blue"
+bright_magenta = "bright_magenta"
+bright_cyan = "bright_cyan"
+bright_white = "bright_white"
+[themes.component_style]
+like = { fg = "Red", modifiers = ["Bold"] }
+border = { fg = "Green", modifiers = ["Bold", "Dim"] }
+block_title = { fg = "Cyan", modifiers = ["Bold", "Dim"] }
+selection = { fg = "Black", modifiers = ["Bold"], bg = "BrightGreen" }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Green", modifiers = ["Bold"] }
+playback_track = { fg = "Green", modifiers = ["Bold"] }
+playback_status = { fg = "Green", modifiers = ["Bold"] }
+playback_progress_bar = { fg = "Green", bg = "Black" }
+playback_metadata = { fg = "#2A2A2A" }
+page_desc = { fg = "Green", modifiers = ["Bold"] }
+table_header = { fg = "Cyan", modifiers = ["Bold"] }
+lyrics_played = { fg = "Red" , modifiers = ["Dim", "Bold"] }
+lyrics_playing = { fg = "BrightRed", modifiers = ["Bold"] }

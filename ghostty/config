@@ -6,5 +6,6 @@ mouse-hide-while-typing = true
 
 copy-on-select = true
 
-font-family = ComicShannsMono Nerd Font
-font-size = 16
+font-family = Menlo Regular
+font-size = 14
+font-thicken = true
